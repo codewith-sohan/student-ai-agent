@@ -1,0 +1,6 @@
+{
+  "name": "EduSpark AI",
+  "description": "A highly engaging, intelligent student assistant with an analytics engine, doubt-solver, and gamified learning experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["AI Student Assistant", "Academic Analytics", "Dynamic Doubt Solving", "Gamified Learning"]
+}

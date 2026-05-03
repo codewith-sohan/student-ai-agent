@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-primary: #7C3AED;
+  --color-accent: #FFD60A;
+  --color-ink: #1A1A1A;
+  --color-canvas: #F0F2FF;
+  
+  --shadow-hard-sm: 2px 2px 0px 0px #1A1A1A;
+  --shadow-hard: 4px 4px 0px 0px #1A1A1A;
+  --shadow-hard-lg: 8px 8px 0px 0px #1A1A1A;
+  --shadow-hard-primary: 4px 4px 0px 0px #7C3AED;
+  --shadow-hard-accent: 4px 4px 0px 0px #FFD60A;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  overflow-x: hidden;
+}
+
+.brutalist-card {
+  @apply bg-white border-4 border-ink shadow-hard-lg rounded-[32px];
+}
+
+.brutalist-button {
+  @apply border-2 border-ink shadow-hard-sm transition-all active:translate-x-[1px] active:translate-y-[1px] active:shadow-none;
+}
+
+.text-gradient {
+  @apply text-primary;
+}
+
